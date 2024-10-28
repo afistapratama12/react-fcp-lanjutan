@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { FormControl, FormLabel, FormErrorMessage, FormHelperText, Input, Button, Center, Container } from '@chakra-ui/react'
+import { FormControl, FormLabel, Input, Button, Center, Container } from '@chakra-ui/react'
 
 const AddStudent = () => {
     const [fullname, setFullname] = useState("");
